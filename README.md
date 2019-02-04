@@ -7,8 +7,7 @@ Docker image builder for the Srophe software. Based on the eXist-db Docker image
 3. SPARQL and RDF indexing for eXist-db [http://exist-db.org/exist/apps/public-repo/packages/exist-sparql.html?eXist-db-min-version=3.0.3]
 
 ### Additional Customizations
-1. The image also includes a custom controller-config.xml and exist-webapp-context.xml to set the Srophe app (/db/apps/srophe) as the root direcory, allowing users to access it at  
-http://localhost:8080/index.html. 
+1. The image also includes a custom controller-config.xml and exist-webapp-context.xml to set the Srophe app (/db/apps/srophe) as the root direcory, allowing users to access the application home page at http://localhost:8080/index.html. 
 2. A custom eXist-db conf.xml adds the RDF index collection.xconf used by the SPARQL module. 
 
 ## How To Use
@@ -22,7 +21,9 @@ and data packages you must explicitly pull the submodules when you clone the rep
 ```git submodule update```
 
 Or to update submodules: 
+
 ```git submodule foreach git pull origin master```
+
 
 
 ## Sponsors:
