@@ -1,5 +1,5 @@
 # srophe-docker
-Docker image builder for the Srophe software. Based on the eXist-db Docker image. 
+Docker image builder for the Srophe software. Based on the eXist-db Docker image [https://hub.docker.com/r/existdb/existdb]. 
 
 ### This image pre-loads the following eXist-db libraries and modules: 
 1. EXPATH Cryptographic Library Module v0.6 [http://exist-db.org/exist/apps/public-repo/packages/expath-crypto-exist-lib.html?eXist-db-min-version=4.4.0]
