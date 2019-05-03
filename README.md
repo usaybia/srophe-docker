@@ -24,7 +24,8 @@ Or to update submodules:
 
 ```git submodule foreach git pull origin master```
 
-
+Build the docker file
+```docker build -t srophe:v1.0 .```
 
 ## Sponsors:
 The Center of Digital Humanities Research at Texas A&M University [http://codhr.dh.tamu.edu/]
