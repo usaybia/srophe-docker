@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+
+  srophe:
+    build: ./
+    volumes:
+      - /EXIST-HOME/srophe/data:/exist/webapp/WEB-INF/data
+    ports:
+      - "8080:8484"
