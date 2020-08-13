@@ -8,7 +8,7 @@ COPY autodeploy/*.xar /exist/autodeploy/
 COPY conf/conf.xml /exist/etc
 
 #EXPOSE 8080 8443
-EXPOSE 8080 8444
+EXPOSE 8080 8443
 
 # Start eXist-db
 CMD [ "java", "-jar", "start.jar", "jetty" ]
