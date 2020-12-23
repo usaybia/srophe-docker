@@ -1,11 +1,9 @@
 name: Docker CD
 
 on:
-  push:
+  workflow_dispatch:
     paths:
     - "**Dockerfile**"
-
-workflow_dispatch:
 
 jobs:
 
