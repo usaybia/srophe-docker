@@ -1,0 +1,11 @@
+name: 'Get version'
+description: 'Get version of app to build'
+inputs:
+  version:
+    description: 'version of app to build'
+    required: true
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  env:
+    VERSION: ${{ inputs.version }}
